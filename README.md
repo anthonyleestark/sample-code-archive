@@ -1,6 +1,6 @@
 # Anthony Lee Stark's Sample Code Archive
 
-Welcome to my **Code Repository**!  
+Welcome to my **Sample Code Archive**!  
 This repository is where I archive various sample source code files and drafts that I have written over time.  
 The purpose of this repository is to provide a space for me to store and organize my code snippets, as well as to share them with others who may find them useful.  
 Feel free to use and modify the code as needed.
