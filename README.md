@@ -7,10 +7,8 @@ Feel free to use and modify the code as needed.
 
 ## Structure
 
-The repository is structured into folders.  
-Each folder dedicated to a specific programming language.  
-Files are organized by the corresponding language they used.  
-Below is an overview of the folder structure:
+The repository is structured into folders, each dedicated to a specific programming language.  
+Below is an overview of the folder structure:  
 
 ```
 /
@@ -37,9 +35,9 @@ Below is an overview of the folder structure:
 
 ### Language Folders
 
-- **`cpp/`**: Contains C++ source code files. These files demonstrate C++ syntax, algorithms, and various examples.
-- **`js/`**: Contains JavaScript files for web development, Node.js scripts, or general-purpose examples.
-- **`py/`**: Includes Python scripts, from basic examples to more complex problem-solving solutions.
+- **`cpp/`**: Contains **C++** source code files. These files demonstrate **C++** syntax, algorithms, and various examples.
+- **`js/`**: Contains **JavaScript** files for web development, **Node.js** scripts, or general-purpose examples.
+- **`py/`**: Includes **Python** scripts, from basic examples to more complex problem-solving solutions.
 - **...**
 
 ## How to Use
