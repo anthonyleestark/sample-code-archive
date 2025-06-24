@@ -1,0 +1,5 @@
+<Layout>
+    <Button id="btnOK" label="Đồng ý" x="20" y="30" />
+    <ToggleSwitch id="chkAutoRun" label="Khởi động cùng Windows" x="20" y="80" />
+    <Label id="lblInfo" text="Đây là ứng dụng thử nghiệm" x="20" y="130" />
+</Layout>
