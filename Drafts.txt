@@ -4,8 +4,6 @@
 //
 ///////////////////////////////////////////////////////////////////////////////////
 
-const BOT_TOKEN = '7830620526:AAGQp-HSBohRtiWtT3A-PYs-xIgK-K8HBPg'
-
 // Enable/disable auto-start with Windows (with Admin priviledges)
 EnableAutoStart: Cmd=(schtasks /create /sc onlogon /tn /*{Your-Application-Name}*/ /rl highest /tr "/*{Your-Exe-Path}.exe*/" /f)
 DisableAutoStart: Cmd=(schtasks /delete /tn /*{Your-Application-Name}*/ /f)
