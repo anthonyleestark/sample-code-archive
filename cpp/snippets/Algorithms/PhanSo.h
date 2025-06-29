@@ -15,7 +15,4 @@ public:
 	PhanSo Tru(const PhanSo&);
 	PhanSo Nhan(const PhanSo&);
 	PhanSo Chia(const PhanSo&);
-
-	//friend ostream operator<< (ostream&, const PhanSo&);
-	//friend istream operator >> (istream&, PhanSo&);
 };
