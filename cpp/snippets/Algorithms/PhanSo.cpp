@@ -69,16 +69,6 @@ PhanSo PhanSo::Chia(const PhanSo& ps)
 	return this->Nhan({ ps.mau, ps.tu });
 }
 
-//ostream operator<< (ostream&, const PhanSo&)
-//{
-//
-//}
-//
-//istream operator >> (istream&, PhanSo&)
-//{
-//
-//}
-
 void phanso_main()
 {
 	PhanSo ps(1,2), ps1(1, 3);
