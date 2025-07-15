@@ -155,9 +155,21 @@ public:
         return *this;
     };
 	
-	// Invoke safely
-    void invoke(Args&&... args) const {
-        if (func_) func_(std::forward<Args>(args)...);
+    // Bind a member function to the event handler (using the `this` pointer)
+    template <typename T>
+    void bind(T* obj, Ret (T::*method)(Args...)) {
+        func_ = [obj, method](Args&&... args) {
+            (obj->*method)(std::forward<Args>(args)...);
+        };
+    };
+	
+	// Invoke safely, returning the result of the function if it has a return value
+    Ret invoke(Args&&... args) const {
+        if (func_) {
+            return func_(std::forward<Args>(args)...);  // Forward args and return result
+        } else {
+            throw std::runtime_error("Event handler is not set.");
+        }
     };
 	
 	// Allow function-call operator syntax
