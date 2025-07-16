@@ -30,7 +30,6 @@ Below is an overview of the folder structure:
 │ ├── query1.sql
 │ ├── query2.sql
 │ └── ...
-├── Drafts.txt
 ├── README.md
 └── ...
 ```
